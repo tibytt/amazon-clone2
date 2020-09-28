@@ -23,7 +23,7 @@ function Header() {
     }
     return (
         <div className="header">
-            <Link to="/">  <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" className="header__logo"/></Link>
+            <Link to="/"><img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" className="header__logo"/></Link>
            
             <div className="header__search">
                 <input className="header__searchInput b" type="text" />
